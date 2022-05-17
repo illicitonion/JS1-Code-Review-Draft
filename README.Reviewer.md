@@ -1,6 +1,6 @@
 # Code Review - Week 3
 
-For this coursework, you have been paired up with another trainee.
+For this coursework, you have been paired up with another trainee. You're going to work together to try to produce some great code.
 
 You are taking the role of the reviewer. Your pair will open a pull request with this code:
 
@@ -24,14 +24,20 @@ You will leave some comments, they will respond to them (maybe with code changes
 
 Before reading on, you should look at the above code, and think about what could be better about it. Write these ideas down.
 
+## How long to spend
+
+You are expected to spend 1-2 hours on this exercise this week as part of your coursework. This probably looks like leaving 2-5 rounds of review comments. If you think you're done after fewer than three rounds of review, reach out to your education buddy for advice on what else could be improved.
+
 ## Rules of the game
 
-1. You're not allowed to just rewrite the whole PR for them. Focus on what's wrong with the code (e.g. "I don't understand what this variable is for"), and give suggestions that your pair can implement (e.g. "Maybe we could this variable `cheese`"). Prefer asking leading questions to giving suggestions.
-2. Links are great! You don't need to answer/explain everything yourself - if there's an example, or an explanation somewhere, link to it!
+You're not allowed to just rewrite the whole PR for them. Focus on what's wrong with the code (e.g. "I don't understand what this variable is for"), and give suggestions that your pair can implement (e.g. "Maybe we could name this variable `cheese`"). Prefer asking leading questions to giving suggestions.
+
+Use the "Assignee" field to show who's meant to be doing something. When you've sent comments to the author, remove yourself as the "Assignee" and assign your author. When you're not listed as the "Assignee", you're not expected to be reviewing things (otherwise things can get confusing, when the other person updates things while you're still reading them). (TODO: Link to cheat-sheet entry)
 
 ## How to give useful comments
 
 1. Make sure you explain what the problem is - don't just say "This variable name is bad", explain what's wrong with it ("These two variable names are really similar so I get them confused" or "This variable name is a plural, so I thought it contained an array, but it's actually a string").
+2. Links are great! You don't need to answer/explain everything yourself - if there's an example, or an explanation somewhere, link to it!
 
 ## Some problems with this code
 
